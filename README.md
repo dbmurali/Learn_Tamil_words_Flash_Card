@@ -8,6 +8,15 @@
 ### Flashcard Display:
 - Random Tamil words appear on the flashcard.
   The word flips automatically after 5 seconds to reveal its English meaning.
+  
+## Screenshots
+
+### Flash Card Front
+![Flash Card Front](https://github.com/dbmurali/Learn_Tamil_words_Flash_Card/blob/e64a0a12abb8aa800c06c1e1c91d6f4482b881a5/Tamil%20word.png)
+
+### Flash Card Back
+![Flash Card Back]([images/screenshot2.png](https://github.com/dbmurali/Learn_Tamil_words_Flash_Card/blob/e64a0a12abb8aa800c06c1e1c91d6f4482b881a5/English%20meaning.png)
+
 ### Interactive Buttons:
 - ✅ Right Button: Marks the word as "known" and removes it from the learning deck.
 - ❌ Wrong Button: Skips the current word and moves to the next one.
