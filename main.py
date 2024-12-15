@@ -61,8 +61,8 @@ def is_known():
 
 
 canvas=Canvas(width=800,height=526,bg=BACKGROUND_COLOR,highlightbackground=BACKGROUND_COLOR)
-img=PhotoImage(file="C:/Users/dbmur/Downloads/flash-card-project-start/images/card_front.png")
-img2=PhotoImage(file="C:/Users/dbmur/Downloads/flash-card-project-start/images/card_back.png")
+img=PhotoImage(file="images/card_front.png")
+img2=PhotoImage(file="images/card_back.png")
 bg_canvas=canvas.create_image(400, 262,image=img)
 canvas.grid(row=0,column=0,columnspan=2)
 
@@ -71,11 +71,11 @@ canvas.grid(row=0,column=0,columnspan=2)
 top_txt=canvas.create_text(400,150,text="Title",font=("Ariel",20,"italic","bold"))
 btm_txt=canvas.create_text(400,250,text="Word",font=("Ariel",40,"bold"))
 
-right=PhotoImage(file="C:/Users/dbmur/Downloads/flash-card-project-start/images/right.png")
+right=PhotoImage(file="images/right.png")
 right_un=Button(image=right,command=is_known)
 right_un.grid(row=1,column=0)
 
-wrong=PhotoImage(file="C:/Users/dbmur/Downloads/flash-card-project-start/images/wrong.png")
+wrong=PhotoImage(file="images/wrong.png")
 wrong_un=Button(image=wrong,command=read_data)
 wrong_un.grid(row=1,column=1)
 
